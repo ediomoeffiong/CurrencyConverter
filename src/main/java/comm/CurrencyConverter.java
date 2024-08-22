@@ -70,6 +70,10 @@ public class CurrencyConverter {
     }
 
     public static void main(String[] args) throws IOException {
+        System.out.println("-----------Welcome to Currency Converter by Covenant-----------\n\n");
+        System.out.println("Please input the correct details below to ensure proper conversion");
+        System.out.println("Note: Base currency is the currency you want to convert from");
+
         Scanner scan = new Scanner(System.in);
         System.out.print("Input base currency: ");
         base = scan.nextLine();
